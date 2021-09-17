@@ -4,7 +4,9 @@ This is an application for a Day Planner calendar that allows the user to save e
 In an effort to make the calender copacetic, the time blocks are colored to determine past, present and future affairs. Past time blocks are colored gray, current time blocks are red and future time blocks are green. As an added feature the app checks every minute whether the hour has changed to re-color the time blocks, so the user doesn't have to refresh for the colors to update as time passes.
 
 ## Links
+https://github.com/kbentley7/HW5DAYPLANNER 
 
 
 ## Screenshot
 
+<img width="1396" alt="Screen Shot 2021-09-17 at 3 46 20 PM" src="https://user-images.githubusercontent.com/89366416/133846492-b240fe73-f031-4f03-8d61-681601dbb497.png">
