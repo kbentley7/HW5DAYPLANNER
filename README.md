@@ -6,7 +6,8 @@ In an effort to make the calender copacetic, the time blocks are colored to dete
 ## Links
 https://github.com/kbentley7/HW5DAYPLANNER 
 
-
+[Link to Google](https://www.google.com)
 ## Screenshot
 
 <img width="1396" alt="Screen Shot 2021-09-17 at 3 46 20 PM" src="https://user-images.githubusercontent.com/89366416/133846492-b240fe73-f031-4f03-8d61-681601dbb497.png">
+
