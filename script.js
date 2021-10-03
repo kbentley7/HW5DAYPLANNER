@@ -8,12 +8,12 @@ var storedAppointments;
 var returnedAppointments;
 
 $(Window).on("load", function () {
-    currentDate = monment().format("add MMM Do YYYY, h:m a");
+    currentDate = monment().format("dddd MMM Do YYYY, h:mm a");
     $("currentDay").append(currentDate);
     currentTime = moment().format("H");
 
     function renderAppointments() {
-      storedAppointments = JSON.parse(localStorage.getItem("appointments"));
+      storedAppointments = JSON.parse(localStorage.getItem("appointment"));
       if (storedAppointments !== null) {
           for (i = 0; i < storedAppointments.length; i++) {
               returnedAppointments = storedAppointments[i];
