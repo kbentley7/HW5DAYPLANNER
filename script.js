@@ -28,9 +28,42 @@ $(Window).on("load", function () {
   }
 
 
+  renderAppointments();
 
-
+  for (i = 0; i <= 23; i++) {
+      CurrentContainer = i;
+      if( currentTime ==i) {
+          $('#' + CurrentContainer).addClass ("present");
+          $('#' + CurrentContainer). children('div').children('div').children("textarea").addClass("present");
+      }
+      else if (currentTime > i) {
+        $('#' + CurrentContainer).addClass("past")
+        $('#' + CurrentContainer).children('div'). children('div').children("textarea").addClass("past");
+      }
+      else {
+          $('#' + CurrentContainer).addClass("future");
+          $('#' + CurrentContainer).children('div').children('div').children("textarea").addClass("future");
+      }
+  }
 
 })
-  
+
+$(".saveBtn").click(function () {
+  appointText = $(this).parent('div').children('div').children('textarea').val();
+  appointTime = $(this).parent('div').parent().attr("id");
+  appointment = {
+      time: appointTime,
+      details: appointText
+  }
+  tempArray = JSON.parse(localStorage.getItem("appointments"));
+  if (tempArray === null) {
+      localStorage.setItem('appointments', JSON.stringify([{ time: appointTime, details: appointText }]));
+  }
+  else {
+      tempArray.push(appointment);
+      localStorage.setItem("appointments", JSON.stringify(tempArray));
+
+  }
+  $(this).parent('div').children('div').children('textarea').replaceWith($('<textarea>' + appointText.addClass("textarea") + '</textarea>'));
+})
 
