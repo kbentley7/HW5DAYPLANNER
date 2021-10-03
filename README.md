@@ -13,4 +13,15 @@ https://github.com/kbentley7/HW5DAYPLANNER
 
 
 # background 
-This is my second attempt with completing a Day Planne
+This is my second attempt with completing a Day Planner
+
+# Technology used
+* [Bootstrap] (https://getbootstrap.com/) - styling framework used
+
+* HTML
+
+* CSS
+
+* JavaScript
+
+* Git
