@@ -1,90 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Daily Scheduler</title>
-  
 </head>
-
 
 <body>
     <header class="jumbotron">
-      <hi class="display-3">Daily Scheduler</hi>
-      <p class="lead">Schedule your day with this simple calendar</p>
-      <p id="currentDay" class="lead"></p>
+        <h1 class="display-3">Daily Scheduler</h1>
+        <p class="lead">Schedule daily events for each hour of the day with this calendar app.</p>
+        <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container" id="g">
-      <div class="row h-100">
-        <p class="col-sm-1 my-auto time-block">9:00</p>
-        <div class="inputText col-sm-8" id ="9"><textarea class="form-control" id="textarea"></textarea></div>
-        <button class="saveBtn col-sm-2">Save</button>
     </div>
-    <class class="container" id="10"> 
-      <div class="row h-100">
-          <p class="col-sm1 my-auto time-block">10:00</p>
-          <div class="inputText col-sm8"><textarea class="form-control" rows="3" id="textarea"></textarea></div>
-          <button class="saveBtn col-sm-2">Save</button>
-      </div>
-  </div>
-  <div class="container" id="11">
-    <div class="row h-100">
-        <p class="col-sm-1 my-auto time-block">11:00</p>
-        <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
-            class="saveBtn col-sm-2">Save</button>
+    <div class="container" id="9">
+        <div class="row h-100">
+            <p class="col-sm-1 my-auto time-block">9:00</p>
+            <div class="inputText col-sm-8" id ="9"><textarea class="form-control" id="textarea"></textarea></div>
+            <button class="saveBtn col-sm-2">Save</button>
+        </div>
     </div>
-</div>
-<div class="container" id="12">
-  <div class="row h-100">
-      <p class="col-sm-1 my-auto time-block">12:00</p>
-      <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
-          class="saveBtn col-sm-2">Save</button>
-  </div>
-</div>
-<div class="container" id="13">
-  <div class="row h-100">
-      <p class="col-sm-1 my-auto time-block">1:00</p>
-      <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
-          class="saveBtn col-sm-2">Save</button>
-  </div>
-</div
-<div class="container" id="14">
-  <div class="row h-100">
-      <p class="col-sm-1 my-auto time-block">2:00</p>
-      <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
-          class="saveBtn col-sm-2">Save</button>
-  </div>
-</div>
-<div class="container" id="16">
-  <div class="row h-100">
-      <p class="col-sm-1 my-auto time-block">3:00</p>
-      <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
-          class="saveBtn col-sm-2">Save</button>
-  </div>
-</div>
-
-<div class="container" id="16">
-  <div class="row h-100">
-      <p class="col-sm-1 my-auto time-block">4:00</p>
-      <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
-          class="saveBtn col-sm-2">Save</button>
-  </div>
-</div>
-<div class="container" id="17">
-  <div class="row h-100">
-      <p class="col-sm-1 my-auto time-block">5:00</p>
-      <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
-          class="saveBtn col-sm-2">Save</button>
-  </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <div class="container" id="10">
+        <div class="row h-100">
+            <p class="col-sm-1 my-auto time-block">10:00</p>
+            <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div>
+            <button class="saveBtn col-sm-2">Save</button>
+        </div>
+    </div>
+    <div class="container" id="11">
+        <div class="row h-100">
+            <p class="col-sm-1 my-auto time-block">11:00</p>
+            <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
+                class="saveBtn col-sm-2">Save</button>
+        </div>
+    </div>
+    <div class="container" id="12">
+        <div class="row h-100">
+            <p class="col-sm-1 my-auto time-block">12:00</p>
+            <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
+                class="saveBtn col-sm-2">Save</button>
+        </div>
+    </div>
+    <div class="container" id="13">
+        <div class="row h-100">
+            <p class="col-sm-1 my-auto time-block">1:00</p>
+            <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
+                class="saveBtn col-sm-2">Save</button>
+        </div>
+    </div>
+    <div class="container" id="14">
+        <div class="row h-100">
+            <p class="col-sm-1 my-auto time-block">2:00</p>
+            <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
+                class="saveBtn col-sm-2">Save</button>
+        </div>
+    </div>
+    <div class="container" id="15">
+        <div class="row h-100">
+            <p class="col-sm-1 my-auto time-block">3:00</p>
+            <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
+                class="saveBtn col-sm-2">Save</button>
+        </div>
+    </div>
+    <div class="container" id="16">
+        <div class="row h-100">
+            <p class="col-sm-1 my-auto time-block">4:00</p>
+            <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
+                class="saveBtn col-sm-2">Save</button>
+        </div>
+    </div>
+    <div class="container" id="17">
+        <div class="row h-100">
+            <p class="col-sm-1 my-auto time-block">5:00</p>
+            <div class="inputText col-sm-8"><textarea class="form-control" rows="3" id="textarea"></textarea></div><button
+                class="saveBtn col-sm-2">Save</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
