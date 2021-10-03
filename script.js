@@ -8,8 +8,8 @@ var storedAppointments;
 var returnedAppointments;
 
 $(Window).on("load", function () {
-    currentDate = monment().format("dddd MMM Do YYYY, h:mm a");
-    $("currentDay").append(currentDate);
+    currentDate = moment().format("dddd MMM Do YYYY, h:mm a");
+    $("#currentDay").append(currentDate);
     currentTime = moment().format("H");
 
     function renderAppointments() {
