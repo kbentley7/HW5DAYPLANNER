@@ -12,7 +12,7 @@ https://github.com/kbentley7/HW5DAYPLANNER
 
 
 
-# background 
+# Background 
 This is my second attempt with completing a Day Planner
 
 # Technology used
